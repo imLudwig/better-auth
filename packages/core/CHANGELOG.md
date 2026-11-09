@@ -1,5 +1,11 @@
 # @better-auth/core
 
+## 1.7.19
+
+### Patch Changes
+
+- [#12317](https://github.com/better-auth/better-auth/pull/12317) [`8412a5f`](https://github.com/better-auth/better-auth/commit/8412a5f43b724648b3faaa452bec0a6ba8e01765) Thanks [@bytaesu](https://github.com/bytaesu)! - Failed fallback join queries are now reported only through the configured logger, instead of also printing the raw database error (including SQL and bound values) with `console.error`.
+
 ## 1.7.18
 
 ### Patch Changes
